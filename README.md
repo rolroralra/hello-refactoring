@@ -70,5 +70,6 @@
 - 앞으로 리팩터링을 학습하고 적용할 수 있는 방법 제시
   - [Refactoring Catalog](https://refactoring.com/catalog/)
   - [마틴 파울러의 리팩터링 (번역본 2판)](https://product.kyobobook.co.kr/detail/S000001810241)
+    - [개인 블로그 (리팩터링 책 요약)](https://velog.io/@rolroralra/series/refactoring)
   - [헤드퍼스트 디자인 패턴](https://product.kyobobook.co.kr/detail/S000001810483)
 - 강의 내용 정리 및 질문 응답
