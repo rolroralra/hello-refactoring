@@ -68,8 +68,9 @@
 ## 5. 마무리 및 Q&A (10분)
 - 리팩터링이 지속적으로 필요한 이유
 - 앞으로 리팩터링을 학습하고 적용할 수 있는 방법 제시
-  - [Refactoring Catalog](https://refactoring.com/catalog/)
-  - [마틴 파울러의 리팩터링 (번역본 2판)](https://product.kyobobook.co.kr/detail/S000001810241)
+  - [Refactoring 기법 목록](https://refactoring.com/catalog/)
+  - `필요할때 마다 찾아보기` [마틴 파울러의 리팩터링 (번역본 2판)](https://product.kyobobook.co.kr/detail/S000001810241)
     - [개인 블로그 (리팩터링 책 요약)](https://velog.io/@rolroralra/series/refactoring)
-  - [헤드퍼스트 디자인 패턴](https://product.kyobobook.co.kr/detail/S000001810483)
+  - `Optional` [헤드퍼스트 디자인 패턴](https://product.kyobobook.co.kr/detail/S000001810483)
+  - `Recommended` [객체지향의 사실과 오해](https://product.kyobobook.co.kr/detail/S000001628109)
 - 강의 내용 정리 및 질문 응답
