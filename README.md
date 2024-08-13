@@ -57,7 +57,7 @@
 - **Replace Subclass with Delegate**, **Replace Superclass with Delegate**
   - Strategy 패턴
 
-## 4. IntelliJ IDEA의 리팩터링 도구 소개 및 활용 (25분)
+## 4. IntelliJ IDEA의 리팩터링 도구 소개 및 활용 (20분)
 - IntelliJ에서 제공하는 리팩터링 기능 소개
 - 주요 리팩터링 도구 데모 (Extract Method, Inline Method 등)
 - 단축키 및 효율적인 사용 팁
