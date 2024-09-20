@@ -1,4 +1,4 @@
-package com.example.refactoring.inline_variable.replace_temp_with_query;
+package com.example.refactoring.replace_temp_with_query;
 
 public class AfterReplaceTempWithQuery {
 

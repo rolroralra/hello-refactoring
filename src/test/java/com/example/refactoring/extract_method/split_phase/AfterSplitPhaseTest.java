@@ -1,7 +1,6 @@
 package com.example.refactoring.extract_method.split_phase;
 
-import static org.junit.jupiter.api.Assertions.*;
-
+import com.example.refactoring.split_phase.AfterSplitPhase;
 import org.junit.jupiter.api.Test;
 
 class AfterSplitPhaseTest {

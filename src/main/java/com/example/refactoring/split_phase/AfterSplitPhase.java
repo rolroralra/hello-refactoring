@@ -1,4 +1,4 @@
-package com.example.refactoring.extract_method.split_phase;
+package com.example.refactoring.split_phase;
 
 import java.util.List;
 import lombok.extern.slf4j.Slf4j;
