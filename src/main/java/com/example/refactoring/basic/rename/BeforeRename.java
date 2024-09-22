@@ -10,6 +10,9 @@ public class BeforeRename {
         log.info("Area: {}", a);
 
         // ...
+
+        double c = circum(2f * (height + width));
+        log.info("Circumference: {}", c);
     }
 
     public double circum(float r) {
