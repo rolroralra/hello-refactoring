@@ -2,7 +2,8 @@ package com.example.refactoring.inline_method;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-import com.example.refactoring.inline_method.BeforeInlineMethod.Driver;
+import com.example.refactoring.basic.inline_method.BeforeInlineMethod;
+import com.example.refactoring.basic.inline_method.BeforeInlineMethod.Driver;
 import org.junit.jupiter.api.Test;
 
 class BeforeInlineMethodTest {

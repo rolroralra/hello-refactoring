@@ -1,6 +1,6 @@
 package com.example.refactoring.extract_method.split_phase;
 
-import com.example.refactoring.split_phase.AfterSplitPhase;
+import com.example.refactoring.basic.split_phase.AfterSplitPhase;
 import org.junit.jupiter.api.Test;
 
 class AfterSplitPhaseTest {

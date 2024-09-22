@@ -2,6 +2,7 @@ package com.example.refactoring.split_variable;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import com.example.refactoring.first_step.split_variable.AfterSplitVariable;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;

@@ -3,6 +3,7 @@ package com.example.refactoring.replace_magic_literal;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.offset;
 
+import com.example.refactoring.first_step.replace_magic_literal.BeforeReplaceMagicLiteral;
 import java.util.stream.Stream;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;

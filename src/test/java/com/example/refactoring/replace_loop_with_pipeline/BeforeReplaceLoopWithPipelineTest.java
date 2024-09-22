@@ -2,6 +2,8 @@ package com.example.refactoring.replace_loop_with_pipeline;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import com.example.refactoring.first_step.replace_loop_with_pipeline.Author;
+import com.example.refactoring.first_step.replace_loop_with_pipeline.BeforeReplaceLoopWithPipeline;
 import java.util.List;
 import java.util.stream.Stream;
 import org.junit.jupiter.params.ParameterizedTest;
