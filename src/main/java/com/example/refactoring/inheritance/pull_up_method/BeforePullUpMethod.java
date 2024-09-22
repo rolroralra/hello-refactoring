@@ -1,5 +1,10 @@
 package com.example.refactoring.inheritance.pull_up_method;
 
+/**
+ * Pull Up/Down Method/Field
+ * <br/><br/>
+ * Pull Members Up...
+ */
 public class BeforePullUpMethod {
 
     class Car {

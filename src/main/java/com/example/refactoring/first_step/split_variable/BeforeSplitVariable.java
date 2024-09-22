@@ -21,8 +21,8 @@ public class BeforeSplitVariable {
     /**
      * Update geometry
      * <br/><br/>
-     * 1. introduce variable for calculation code<br/>
-     * 2. inline variable for temp variable
+     * 1. Introduce Variable for calculation code<br/>
+     * 2. Inline Variable for temp variable
      *
      * @param width width
      * @param height height

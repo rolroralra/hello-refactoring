@@ -1,5 +1,6 @@
 package com.example.refactoring.conditional.decompose_conditional;
 
+import com.example.refactoring.conditional.decompose_conditional.BeforeDecomposeConditional.Plan;
 import java.time.LocalDate;
 import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
@@ -9,11 +10,7 @@ public class AfterDecomposeConditional {
 
     @RequiredArgsConstructor
     static class PlanManagement {
-        private final LocalDate summerStart;
-        private final LocalDate summerEnd;
-        private final double regularRate;
-        private final double regularServiceCharge;
-        private final double summerRate;
+        private final Plan plan;
 
         public double calculateCharge(LocalDate date, long quantity) {
             if (isInSummer(date)) {
@@ -24,15 +21,15 @@ public class AfterDecomposeConditional {
         }
 
         private double regularCharge(long quantity) {
-            return quantity * regularRate + regularServiceCharge;
+            return quantity * plan.regularRate() + plan.regularServiceCharge();
         }
 
         private double summerCharge(long quantity) {
-            return quantity * summerRate;
+            return quantity * plan.summerRate();
         }
 
         private boolean isInSummer(LocalDate date) {
-            return !date.isBefore(summerStart) && !date.isAfter(summerEnd);
+            return !date.isBefore(plan.summerStart()) && !date.isAfter(plan.summerEnd());
         }
     }
 }

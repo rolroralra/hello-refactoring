@@ -6,7 +6,7 @@ import java.util.List;
  * Replace Primitive with Object
  * <br/><br/>
  * 1. Extract Method for filter method<br/>
- * 2. Convert into instance method<br/>
+ * 2. Convert into instance method for extracted method<br/>
  */
 public class BeforeReplacePrimitiveWithObject {
     class Order {
