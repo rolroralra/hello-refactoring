@@ -2,9 +2,26 @@ package com.example.refactoring.conditional.decompose_conditional;
 
 import java.time.LocalDate;
 import java.util.List;
+import lombok.RequiredArgsConstructor;
 
 public class BeforeDecomposeConditional {
 
+    @RequiredArgsConstructor
+    static class PlanManagement {
+        private final LocalDate summerStart;
+        private final LocalDate summerEnd;
+        private final double regularRate;
+        private final double regularServiceCharge;
+        private final double summerRate;
+
+        public double calculateCharge(LocalDate date, long quantity) {
+            if (date.isBefore(summerStart) && date.isAfter(summerEnd)) {
+                return quantity * summerRate;
+            }
+
+            return quantity * regularRate + regularServiceCharge;
+        }
+    }
 
     record Plan(
         LocalDate summerStart,
