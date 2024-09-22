@@ -9,6 +9,10 @@ public class AfterSplitVariable {
 
     private double area;
 
+    public AfterSplitVariable() {
+        this(0, 0);
+    }
+
     public AfterSplitVariable(double perimeter, double area) {
         this.perimeter = perimeter;
         this.area = area;
