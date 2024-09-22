@@ -1,6 +1,7 @@
 package com.example.refactoring.encapsulation.encapsulate_collection;
 
 import java.util.List;
+import lombok.Getter;
 
 public class AfterEncapsulateCollection {
 
@@ -28,8 +29,11 @@ public class AfterEncapsulateCollection {
         }
     }
 
+    @Getter
     class Course {
-
+        private String name;
+        private String professor;
+        private String description;
     }
 
     public void test() {

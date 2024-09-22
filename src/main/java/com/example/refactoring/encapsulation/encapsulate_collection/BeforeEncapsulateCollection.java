@@ -1,7 +1,17 @@
 package com.example.refactoring.encapsulation.encapsulate_collection;
 
+import java.util.Collections;
 import java.util.List;
+import lombok.Getter;
 
+/**
+ * Encapsulate Collection
+ *
+ * @see Collections#emptyList()
+ * @see Collections#singletonList(Object)
+ * @see Collections#unmodifiableList(List)
+ * @see List#of()
+ */
 public class BeforeEncapsulateCollection {
 
     class Student {
@@ -22,7 +32,10 @@ public class BeforeEncapsulateCollection {
         courses.remove(3);
     }
 
+    @Getter
     class Course {
-
+        private String name;
+        private String professor;
+        private String description;
     }
 }
