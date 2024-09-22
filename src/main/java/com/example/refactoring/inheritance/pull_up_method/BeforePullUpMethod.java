@@ -2,7 +2,6 @@ package com.example.refactoring.inheritance.pull_up_method;
 
 public class BeforePullUpMethod {
 
-
     class Car {
 
     }
@@ -14,6 +13,4 @@ public class BeforePullUpMethod {
             // drive like taxi
         }
     }
-
-
 }
