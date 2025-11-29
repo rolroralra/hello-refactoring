@@ -1,8 +1,7 @@
-package com.example.refactoring.split_variable;
+package com.example.refactoring.first_step.split_variable;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import com.example.refactoring.first_step.split_variable.BeforeSplitVariable;
 import java.util.stream.Stream;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;

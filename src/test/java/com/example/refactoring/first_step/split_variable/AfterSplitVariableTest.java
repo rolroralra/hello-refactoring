@@ -1,8 +1,7 @@
-package com.example.refactoring.split_variable;
+package com.example.refactoring.first_step.split_variable;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import com.example.refactoring.first_step.split_variable.AfterSplitVariable;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -11,7 +10,7 @@ class AfterSplitVariableTest {
 
     @DisplayName("Test updateGeometry method")
     @ParameterizedTest(name = "width={0}, height={1} -> perimeter={2}, area={3}")
-    @MethodSource("com.example.refactoring.split_variable.BeforeSplitVariableTest#provideTestInputArguments")
+    @MethodSource("com.example.refactoring.first_step.split_variable.BeforeSplitVariableTest#provideTestInputArguments")
     void updateGeometry(double width, double height, double expectedPerimeter, double expectedArea) {
         AfterSplitVariable afterSplitVariable = new AfterSplitVariable();
 

@@ -16,31 +16,50 @@
 
 ### 리팩터링 첫걸음
 - **Replace Loop with Pipeline**: 반복문을 파이프라인으로 대체
+  - [link](./src/main/java/com/example/refactoring/first_step/replace_loop_with_pipeline)
 - **Split Variable**: 변수 분리
+    - [link](./src/main/java/com/example/refactoring/first_step/split_variable)
 - **Replace Magic Literal**: 매직 리터럴을 상수로 대체
+    - [link](./src/main/java/com/example/refactoring/first_step/replace_magic_literal)
 
 ### 기본적인 리팩터링
 - **Extract Method**: 중복 코드의 분리 및 함수로 추출
   - **Split Phase**: 단계 쪼개기
+      - [link](./src/main/java/com/example/refactoring/basic/split_phase)
 - **Inline Method**: 함수 호출을 함수 본문으로 대체
+  - [link](./src/main/java/com/example/refactoring/basic/inline_method)
 - **Extract Variable**: 복잡한 표현식을 변수로 추출
+    - [link](./src/main/java/com/example/refactoring/basic/extract_variable)
 - **Inline Variable**: 불필요한 변수의 제거
+  - [link](./src/main/java/com/example/refactoring/basic/inline_variable)
   - **Replace Temp with Query**: 임시 변수를 질의 메소드로 대체
+    - [link](./src/main/java/com/example/refactoring/basic/replace_temp_with_query)
 - **Rename Method/Variable**: 가독성을 높이기 위한 명확한 명명
+  - [link](./src/main/java/com/example/refactoring/basic/rename)
   - **Change Function Declaration**: 함수 선언 변경
+    - [link](./src/main/java/com/example/refactoring/basic/change_function_declaration)
 - **Introduce Parameter Object**: 여러 개의 매개변수를 객체로 추출
+  - [link](./src/main/java/com/example/refactoring/basic/introduce_parameter_object)
 - **Combine Functions into Class**: 여러 함수를 클래스로 묶기
+  - [link](./src/main/java/com/example/refactoring/basic/combine_functions_into_class) 
   - **Combine Functions into Transform**: 여러 함수를 변환 함수로 묶기
+    - [link](./src/main/java/com/example/refactoring/basic/combine_functions_into_transform) 
 
 ### 캡슐화
 - **Encapsulate Record**: 레코드 캡슐화
 - **Encapsulate Collection**: 컬렉션 캡슐화
+  - [link](./src/main/java/com/example/refactoring/encapsulation/encapsulate_collection)
 - **Replace Primitive with Object**: 기본 타입을 객체로 대체
+    - [link](./src/main/java/com/example/refactoring/encapsulation/replace_primitive_with_object)
 
 ### 조건부 로직 간소화
 - **Decompose Conditional**: 조건문을 보기 좋게 함수로 분리
+  - [link](./src/main/java/com/example/refactoring/conditional/decompose_conditional)
 - **Replace Conditional with Polymorphism**: 조건부 로직을 다형성으로 대체
+  - [link](./src/main/java/com/example/refactoring/conditional/replace_conditional_with_polymorphism)
 - **Introduce Assertion**: 가정문을 추가하여 코드의 가독성 향상
+  - Guava
+  - Kotlin `require`, `check` method
 
 ### API 리팩터링
 - **Separate Query from Modifieer**: 질의 함수와 변경 함수 분리
@@ -51,8 +70,10 @@
 
 ### 상속 다루기
 - **Pull Up Method**, **Pull Down Method**, **Pull Up Field**, **Pull Down Field**
+  - [link](./src/main/java/com/example/refactoring/inheritance/pull_up_method)
   - 상속 관계에서 메소드와 필드를 상위 클래스로 끌어올리거나 내리기
   - 생성자 공통화 (**Pull Up Constructor Body**)
+    - [link](./src/main/java/com/example/refactoring/inheritance/pull_up_constructor_body)
 - **Replace Type Code with Subclasses**: 타입 코드를 하위 클래스로 대체
 - **Replace Subclass with Delegate**, **Replace Superclass with Delegate**
   - Strategy 패턴

@@ -7,7 +7,7 @@ public class BeforeChangeFunctionDeclaration {
 
     public void process() {
         double r = 10;
-        double area = circum(r);
+        double area = circumference(r);
 
         log.info("Area: {}", area);
 
@@ -15,7 +15,7 @@ public class BeforeChangeFunctionDeclaration {
 
     }
 
-    public double circum(double r) {
+    public double circumference(double r) {
         return 2 * Math.PI * r;
     }
 }
