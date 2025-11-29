@@ -24,13 +24,17 @@ repositories {
     mavenCentral()
 }
 
+val guavaVersion = "33.3.0-jre"
+
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
+    implementation("com.google.guava:guava:$guavaVersion")
+    implementation(kotlin("stdlib-jdk8"))
+
     compileOnly("org.projectlombok:lombok")
     annotationProcessor("org.projectlombok:lombok")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     testRuntimeOnly("org.junit.platform:junit-platform-launcher")
-    implementation(kotlin("stdlib-jdk8"))
 }
 
 tasks.withType<Test> {
